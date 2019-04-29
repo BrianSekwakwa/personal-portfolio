@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+// Media Queries
+
+// Widths
+@mixin verySmall {
+  @media screen and (max-width: 599.5px) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media screen and (min-width: 600px) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media screen and (min-width: 960px) {
+    @content;
+  }
+}
+
+@mixin veryLarge {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}
+
+// Heights
+@mixin maxHeight {
+  @media screen and (max-height: 530px) {
+    @content;
+  }
+}
+
+@mixin minHeight {
+  @media screen and (min-height: 768px) {
+    @content;
+  }
+}
