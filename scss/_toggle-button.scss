@@ -3,9 +3,10 @@
 #nav-icon1 {
   width: 45px;
   height: 35px;
-  position: fixed;
-  right: 2.5%;
-  top: 4%;
+  position: relative;
+  float: right;
+  margin-top: 1rem;
+  margin-right: 1rem;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -15,6 +16,7 @@
   -o-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   cursor: pointer;
+  z-index: 10;
 }
 
 #nav-icon1 span {
@@ -22,7 +24,7 @@
   position: absolute;
   height: 4px;
   width: 100%;
-  background: #d3531a;
+  background: #000;
   border-radius: 9px;
   opacity: 1;
   left: 0;

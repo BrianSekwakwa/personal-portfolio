@@ -7,7 +7,18 @@
   font-family: "Raleway", sans-serif;
 }
 
-// Media Queries
+body {
+  overflow: hidden;
+}
+
+// Restricting the width of the container
+.container {
+  background: lightcoral;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+// MEDIA QUERIES
 
 // Widths
 @mixin verySmall {
@@ -36,19 +47,6 @@
 
 @mixin veryLarge {
   @media screen and (min-width: 1200px) {
-    @content;
-  }
-}
-
-// Heights
-@mixin maxHeight {
-  @media screen and (max-height: 530px) {
-    @content;
-  }
-}
-
-@mixin minHeight {
-  @media screen and (min-height: 768px) {
     @content;
   }
 }

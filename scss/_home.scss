@@ -5,15 +5,24 @@
   &__header {
     position: relative;
     top: 40%;
-    left: 2%;
+    margin-left: 1rem;
 
     & h1 {
       font-size: 2.5rem;
+
+      @include verySmall {
+        font-size: 2rem;
+        color: yellow;
+      }
     }
 
     & p {
       margin-top: 0.2rem;
       font-size: 1.4rem;
+
+      @include verySmall {
+        font-size: 1.2rem;
+      }
     }
 
     // Social presence icons
@@ -29,7 +38,7 @@
           transition: all 0.3s ease-in-out;
 
           &:hover {
-            transform: scale(1.1);
+            transform: scale(1.3);
           }
         }
 
