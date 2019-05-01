@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif; }
 
 .home {
   height: 100vh;
@@ -11,9 +13,22 @@
     top: 40%;
     left: 2%; }
     .home__header h1 {
-      font-size: 3rem; }
-    .home__header h3 {
-      font-size: 1.7rem; }
+      font-size: 2.5rem; }
+    .home__header p {
+      margin-top: 0.2rem;
+      font-size: 1.4rem; }
+    .home__header__socials {
+      margin-top: 1rem; }
+      .home__header__socials a {
+        margin: 0 0.7rem;
+        font-size: 1.7rem;
+        color: #000; }
+        .home__header__socials a i {
+          transition: all 0.3s ease-in-out; }
+          .home__header__socials a i:hover {
+            transform: scale(1.1); }
+        .home__header__socials a:first-child {
+          margin-left: 0; }
 
 /* Hamburger menu item was creted by Jesse Couch from codepen */
 #nav-icon1 {
