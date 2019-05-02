@@ -1,6 +1,7 @@
 const toggleButton = document.querySelector("#nav-icon1");
-const menu = document.querySelector(".menu");
+const hiddenMenu = document.querySelector(".menu");
 
+// Events
 toggleButton.addEventListener("click", openMenu);
 
 // Functionality for toggle button
@@ -11,5 +12,5 @@ $(document).ready(function() {
 });
 
 function openMenu() {
-  menu.classList.toggle("show-menu");
+  hiddenMenu.classList.toggle("showMenu");
 }

@@ -1,45 +1,34 @@
 .menu {
-  background: rgba(0, 0, 0, 0.5);
-  height: 100vh;
-  width: 20rem;
-  float: right;
+  background: rgba($color: #000000, $alpha: 0.5);
+  text-align: center;
   display: flex;
+  position: fixed;
   align-items: center;
+  height: 100vh;
+  width: 100%;
   justify-content: center;
-  position: relative;
-  transition: all 0.5s ease-in-out;
-  transform: translateY(-200vh);
-
-  @include verySmall {
-    width: 100%;
-  }
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-100vh);
 
   &__links {
     list-style: none;
 
     & a {
-      font-size: 1.5rem;
-      color: #000;
+      margin: 1rem;
+      font-size: 1.3rem;
+      font-weight: 600;
       text-decoration: none;
-      transition: color 0.3s ease-in-out;
+      color: #000000;
+      transition: color 0.4s ease-in-out;
 
       &:hover {
-        color: #eee;
-      }
-
-      & li {
-        margin-top: 2rem;
+        color: #ffffff;
       }
     }
   }
 }
 
-// Show menu when toggle button is clicked
-.show-menu {
-  transform: translateY(-100vh);
-}
-
-// Current page visted link style
-#active {
-  color: rgb(148, 233, 13);
+// show hidden menu
+.showMenu {
+  transform: translateY(0);
 }

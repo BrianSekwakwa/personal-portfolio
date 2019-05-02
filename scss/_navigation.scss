@@ -1,0 +1,24 @@
+.navigation {
+  width: 100%;
+  height: 3rem;
+  background: red;
+
+  &__logo {
+    margin-left: 2rem;
+  }
+
+  &__links {
+    margin-left: 2rem;
+    height: 100%;
+    display: inline-block;
+    padding-top: 0.9rem;
+
+    & a {
+      margin-right: 2rem;
+      & li {
+        height: 100%;
+        display: inline-block;
+      }
+    }
+  }
+}

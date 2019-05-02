@@ -11,40 +11,80 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/main.css" />
-    <title>Home</title>
+    <title>Brian Sekwakwa Portfolio</title>
   </head>
   <body>
     <div class="container">
-      <!-- Toggle menu button -->
-      <div id="nav-icon1">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-
-      <!-- landing area of website -->
-      <main class="home">
-        <div class="home__header">
-          <h1>BRIAN SEKWAKWA</h1>
-          <p>SOFTWARE DEVELOPER</p>
-          <div class="home__header__socials">
-            <a href=""><i class="fab fa-github"></i></a>
-            <a href=""><i class="fab fa-linkedin-in"></i></a>
-            <a href=""><i class="fab fa-medium-m"></i></a>
-            <a href=""><i class="fab fa-codepen"></i></a>
-          </div>
-        </div>
-      </main>
-
-      <!-- Hidden menu -->
+      <!-- Hidden menu on small screen -->
       <div class="menu">
         <ul class="menu__links">
-          <a href="#" id="active"><li>Home</li></a>
+          <a href="#"><li>Home</li></a>
           <a href="#"><li>About</li></a>
           <a href="#"><li>Projects</li></a>
-          <a href="#"><li>Contact</li></a>
+          <a href="#"><li>Contacts</li></a>
         </ul>
       </div>
+
+      <!-- The header with navigation  -->
+      <header>
+        <nav class="navigation">
+          <span class="navigation__logo">LOGO</span>
+          <ul class="navigation__links">
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>About</li></a>
+            <a href="#"><li>Projects</li></a>
+            <a href="#"><li>Contact</li></a>
+          </ul>
+          <!-- Toggle menu button -->
+          <div id="nav-icon1">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <section class="home"></section>
+        <section class="about">
+          <h1>About me</h1>
+          <div class="about__grid">
+            <div class="about__grid__img">
+              <img src="" alt="" />
+            </div>
+            <div class="about__grid__cotentn">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+              quos ducimus repellat fugiat recusandae neque dolore nostrum
+              expedita minus modi ipsam quis minima eius totam, repellendus nisi
+              explicabo assumenda voluptatibus.
+            </div>
+          </div>
+        </section>
+        <section class="projects">
+          <h1>Projects</h1>
+          <div class="projects__cards">
+            <div class="projects__cards__item">
+              <img src="" alt="" />
+              <p>Project</p>
+              <p>Code</p>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <section class="contact">
+          <h1>Reach me</h1>
+          <p><span>Email</span> briansekwakwa@gmail.com</p>
+          <div class="contact__socials">
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+          </div>
+        </section>
+        <section>
+          <p>&copy; Brian Sekwakwa</p>
+        </section>
+      </footer>
     </div>
   </body>
   <script
