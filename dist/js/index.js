@@ -11,6 +11,7 @@ $(document).ready(function() {
   });
 });
 
+// Open hidden menu
 function openMenu() {
   hiddenMenu.classList.toggle("showMenu");
 }
