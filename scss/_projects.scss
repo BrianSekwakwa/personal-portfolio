@@ -1,0 +1,44 @@
+.projects {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  & h1,
+  & p {
+    text-align: center;
+  }
+
+  &__cards {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &__item {
+      width: 20rem;
+      height: 20rem;
+      margin: 0.5rem;
+      background: orange;
+
+      & div {
+        width: 100%;
+        height: 80%;
+        background: rgba($color: #000000, $alpha: 0.5);
+      }
+      & a {
+        background: blue;
+        display: block;
+        text-align: center;
+        padding-top: 5px;
+        height: 10%;
+        text-decoration: none;
+
+        & i {
+          margin: 5px;
+        }
+
+        &:nth-child(3) {
+          background: red;
+        }
+      }
+    }
+  }
+}
