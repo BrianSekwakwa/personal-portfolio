@@ -10,8 +10,15 @@
 // Restricting the width of the container
 .container {
   background: lightcoral;
-  max-width: 1920px;
+  max-width: 1440px;
   margin: 0 auto;
+}
+
+// Border division between section
+.border {
+  height: 0.2rem;
+  width: 100%;
+  background: gold;
 }
 
 // MEDIA QUERIES
