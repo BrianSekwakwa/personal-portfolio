@@ -1,0 +1,32 @@
+.contact {
+  text-align: center;
+  padding-top: 3rem;
+  & h1 {
+    margin-bottom: 2rem;
+  }
+  & p {
+    margin: 0.3rem;
+
+    & span {
+      font-weight: bold;
+    }
+  }
+
+  &__socials {
+    margin-top: 1.5rem;
+
+    & a {
+      margin: 1rem;
+      font-size: 2rem;
+      color: #000;
+
+      & i {
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+          transform: scale(1.5);
+        }
+      }
+    }
+  }
+}

@@ -15,6 +15,13 @@
   width: 100%;
   background: gold; }
 
+.copyright {
+  background: purple;
+  padding: 1rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 3rem; }
+
 /* Hamburger menu item was creted by Jesse Couch from codepen */
 #nav-icon1 {
   width: 40px;
@@ -155,19 +162,6 @@
     text-align: center; }
   .about p {
     margin-top: 0.5rem; }
-  .about__grid {
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 60rem;
-    margin: 2rem auto 0 auto; }
-    .about__grid__img {
-      background: yellow; }
-    .about__grid__content h3 {
-      margin-top: 1rem; }
-    .about__grid__content ul {
-      margin-top: 0.5rem;
-      margin-left: 1rem; }
 
 .projects {
   margin-top: 3rem;
@@ -200,3 +194,23 @@
           margin: 5px; }
         .projects__cards__item a:nth-child(3) {
           background: red; }
+
+.contact {
+  text-align: center;
+  padding-top: 3rem; }
+  .contact h1 {
+    margin-bottom: 2rem; }
+  .contact p {
+    margin: 0.3rem; }
+    .contact p span {
+      font-weight: bold; }
+  .contact__socials {
+    margin-top: 1.5rem; }
+    .contact__socials a {
+      margin: 1rem;
+      font-size: 2rem;
+      color: #000; }
+      .contact__socials a i {
+        transition: all 0.3s ease-in-out; }
+        .contact__socials a i:hover {
+          transform: scale(1.5); }
