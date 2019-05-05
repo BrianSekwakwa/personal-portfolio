@@ -20,7 +20,8 @@
   padding: 1rem;
   font-weight: bold;
   text-align: center;
-  margin-top: 3rem; }
+  margin-top: 3rem;
+  font-size: 1.2rem; }
 
 /* Hamburger menu item was creted by Jesse Couch from codepen */
 #nav-icon1 {
@@ -156,21 +157,46 @@
 
 .about {
   margin-top: 3rem;
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+  width: 100%; }
+  .about h1 {
+    font-size: 2.2rem; }
   .about h1,
   .about p {
     text-align: center; }
   .about p {
-    margin-top: 0.5rem; }
+    margin-top: 1rem;
+    font-size: 1.2rem; }
+  .about__summary {
+    margin: 1rem auto 0 auto;
+    max-width: 60rem;
+    font-size: 1.2rem; }
+  .about__skills {
+    margin: 1rem auto 0 auto;
+    max-width: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+    .about__skills__img {
+      margin: 0.5rem;
+      height: 100px;
+      width: 100px;
+      background: goldenrod; }
 
 .projects {
   margin-top: 3rem;
   margin-bottom: 3rem; }
+  .projects h1 {
+    font-size: 2.2rem; }
   .projects h1,
   .projects p {
     text-align: center; }
+  .projects p {
+    margin-top: 1rem;
+    font-size: 1.2rem; }
   .projects__cards {
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center; }
@@ -199,10 +225,12 @@
   text-align: center;
   padding-top: 3rem; }
   .contact h1 {
-    margin-bottom: 2rem; }
+    margin-bottom: 1rem; }
   .contact p {
+    font-size: 1.2rem;
     margin: 0.3rem; }
     .contact p span {
+      font-size: 1.2rem;
       font-weight: bold; }
   .contact__socials {
     margin-top: 1.5rem; }
