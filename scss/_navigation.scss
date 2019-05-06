@@ -1,24 +1,39 @@
 .navigation {
   width: 100%;
   height: 3rem;
-  background: red;
+  background: rgba($color: #000000, $alpha: 0.4);
+  position: fixed;
 
   &__logo {
     margin-left: 2rem;
-    font-size: 1.4rem;
-    margin-top: 0.3rem;
+    font-size: 1.7rem;
+
+    & i {
+      margin-top: 0.7rem;
+    }
   }
 
   &__links {
     margin-left: 2rem;
     height: 100%;
     display: inline-block;
-    padding-top: 0.9rem;
+
+    @include verySmall {
+      display: none;
+    }
 
     & a {
       margin-right: 2rem;
+      font-weight: bold;
+      color: #000;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        color: #ffffff;
+      }
       & li {
-        height: 100%;
+        position: relative;
+        top: -5px;
         display: inline-block;
       }
     }
