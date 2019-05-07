@@ -7,10 +7,15 @@
   font-family: "Raleway", sans-serif;
 }
 
+body {
+  background: $color4;
+}
+
 // Restricting the width of the container
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  background: #ffffff;
   box-shadow: 0px 0px 10px -3px $color1;
 }
 

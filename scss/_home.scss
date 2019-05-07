@@ -4,6 +4,7 @@
   display: grid;
   align-items: center;
   justify-content: center;
+  color: $color3;
 
   &__container {
     text-align: center;
@@ -11,17 +12,17 @@
       font-size: 2.2rem;
     }
     & p {
-      margin-top: 0.2rem;
-      font-size: 1.2rem;
+      margin-top: 0.5rem;
+      font-size: 1.5rem;
     }
 
     &__socials {
       margin-top: 1rem;
-      font-size: 1.5rem;
+      font-size: 1.8rem;
 
       & a {
         margin-right: 1rem;
-        color: #000;
+        color: $color3;
 
         & i {
           transition: all 0.3s ease-in-out;
