@@ -5,6 +5,12 @@
   align-items: center;
   justify-content: center;
   color: $color3;
+  background: url("../img/background.jpg");
+  background-color: rgba($color: $color5, $alpha: 0.3);
+  background-blend-mode: color;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 
   &__container {
     text-align: center;
