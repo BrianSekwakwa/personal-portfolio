@@ -2,6 +2,9 @@ const toggleButton = document.querySelector("#nav-icon1");
 const hiddenMenu = document.querySelector(".menu");
 const hiddenMenuLinks = document.querySelectorAll(".menu__links a");
 
+// Initializing AOS
+AOS.init();
+
 // Events
 toggleButton.addEventListener("click", openMenu);
 hiddenMenuLinks.forEach(item => {

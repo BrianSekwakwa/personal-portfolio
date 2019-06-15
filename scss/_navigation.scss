@@ -3,6 +3,7 @@
   height: 3rem;
   background: rgba($color: $color3, $alpha: 1);
   position: fixed;
+  z-index: 10;
 
   @include veryLarge {
     width: 90rem;
